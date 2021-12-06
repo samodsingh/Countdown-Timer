@@ -1,0 +1,39 @@
+ body{
+     background-image: url('./image.jpg');
+     background-repeat: no-repeat;
+     background-size: cover;
+     opacity: 0.9;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ .container{
+     width: 100%;
+ }
+ .section-main{
+     width: 50%;
+     display: flex;
+     padding: 30px;
+     margin: auto;
+ }
+ .section-info h1{
+     font-size: 30px;
+    color: blue;
+    font-family:  Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ .deadline{
+     display: flex;
+     /* justify-content: space-evenly; */
+ }
+ .deadline-formet{
+     width: 80px;
+     text-align: center;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     border: 1px solid;
+     margin: 5px;
+     background-color: black;
+     color: white;
+     padding: 5px;
+ }
+ 
