@@ -27,7 +27,7 @@ let giveway = document.querySelector('.giveway');
 let deadline = document.querySelector('.deadline');
 let items = document.querySelectorAll('.deadline-formet h2');
 
-let futurDate = new Date( 2021,12 , 1, 12, 0, 0);
+let futurDate = new Date( 2022,12 , 1, 12, 0, 0);
 let year = futurDate.getFullYear();
 let hours = futurDate.getHours();
 let minute = futurDate.getMinutes();
@@ -81,7 +81,7 @@ function getRemainigTime(){
     });
     if(t < 0 ){
         clearInterval(countdown);
-        deadline.innerHTML = `h4 class= "expired "> Happy new year 2022 </h4>`
+        deadline.innerHTML = `<h4 class= "expired "> HAPPY NEW YEAR 2023 </h4>`
 
     }
 

@@ -15,6 +15,9 @@
      padding: 30px;
      margin: auto;
  }
+ .section-main img{
+    margin: 10px;
+ }
  .section-info h1{
      font-size: 30px;
     color: blue;
